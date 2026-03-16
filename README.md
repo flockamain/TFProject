@@ -14,6 +14,8 @@ cd to the terraform folder
 ALSO - need to add the html/css/js/images to s3 and adjust the webserver.sh script to pull those if hoping to adjust from my personal website
 along with this, youll need to create a key pair if ssh'ing (or remove the key_name statement from the ec2 file)
 
+requires a little bit of certificate management - need cname to connect a dns name to your alb dns name. Also need a certificate for https
+
 commands before launching:
 terraform validate
 

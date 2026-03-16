@@ -1,0 +1,13 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform internals
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# Variable files (may contain secrets)
+*.tfvars

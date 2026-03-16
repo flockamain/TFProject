@@ -10,4 +10,5 @@ terraform.tfstate.backup
 crash.log
 
 # Variable files (may contain secrets)
-*.tfvars
+terraform.tfvars
+!example.tfvars

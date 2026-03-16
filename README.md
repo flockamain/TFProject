@@ -7,8 +7,12 @@ Create a file in your terraform project folder
 cd to the terraform folder
 -type “terraform init” in bash
 
+
 ***If something already exists with the same configs, but something can just be changed - it will just adjust the current resource***
 ***i.e. - changed tags = { Name = "terraformEC2” } when an ec2 instance with the same settings existed within aws. It just changed the name***
+
+ALSO - need to add the html/css/js/images to s3 and adjust the webserver.sh script to pull those if hoping to adjust from my personal website
+along with this, youll need to create a key pair if ssh'ing (or remove the key_name statement from the ec2 file)
 
 commands before launching:
 terraform validate
